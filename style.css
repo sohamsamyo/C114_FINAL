@@ -1,0 +1,33 @@
+body {
+    background-image: url("BACK.png");
+    background-size: cover;
+    font-size: 22px;
+}
+
+h3 {
+    background-color: rgb(175, 99, 0);
+    font-size: 35px;
+}
+
+.button1:hover {
+    background-color: rgb(175, 99, 0);
+
+}
+
+canvas {
+    border: 2px ridge rgb(0, 255, 0);
+    animation-name: bg;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bg {
+    from {
+        box-shadow: 4px 4px 50px rgb(0, 255, 0);
+    }
+
+    to {
+        box-shadow: 4px 4px 50px rgb(179, 22, 203);
+    }
+}
